@@ -2,13 +2,23 @@
   "name": "practice-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon ./start.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoahGoodwin/Practice-App.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoahGoodwin/Practice-App/issues"
+  },
+  "homepage": "https://github.com/NoahGoodwin/Practice-App#readme",
   "dependencies": {
     "express": "^4.18.2"
   },
